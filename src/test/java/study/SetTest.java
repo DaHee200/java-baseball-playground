@@ -49,14 +49,14 @@ public class SetTest {
         assertNotEquals(5, input);
     }
 
-    //문자열 계산기
-    @Test
-    @ValueSource(strings = {"2 + 3 + 4 / 2"})
-    void 문자열_계산기(String input) {
-        List<String> nums = Arrays.asList(input.split(" "));
-
-        int number = Integer.parseInt(nums.get(1));
-
-    }
+//    //문자열 계산기
+//    @Test
+//    @ValueSource(strings = {"2 + 3 + 4 / 2"})
+//    void 문자열_계산기(String input) {
+//        List<String> nums = Arrays.asList(input.split(" "));
+//
+//        int number = Integer.parseInt(nums.get(1));
+//
+//    }
 
 }
